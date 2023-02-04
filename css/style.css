@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    background-image: url(../images/Burger-House.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 830px;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.heading_top{
+    padding-top: 55px;
+    overflow: hidden;
+}
+.logo_left{
+    width: 280px;
+    float: left;
+}
+.logo_left img{
+    width: 100%;
+}
+.header_right{
+    float: right;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.right_top{
+    width: 300px;
+    float: right;
+    overflow: hidden;
+}
+.right_top img{
+    float: left;
+}
+.right_top p{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.right_menu{
+    float: right;
+}
+.nav{}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.heading_buttom{
+    overflow: hidden;
+    width: 100%;
+}
+.heading_b_left{
+    width: 50%;
+    float: left;
+}
+.heading_b_left p{
+    margin-top: 120px;
+}
+.back_shaddow{
+    text-shadow: 3px;
+}
+.back_shaddow h1{
+    font-size: 80px;
+}
+.back_shaddow h2{
+    font-size: 36px;
+}
+.heading_b_right{
+    width: 50%;
+    float: right;
+}
+.heading_b_right img{
+    width: 100%;
+    
+}
+.rec_back{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    margin-top: -280px;
+    margin-left: 80px;
+}
+.rec_back h2{
+    font-size: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 25% 30%;
+    border-radius: 50%;
+    letter-spacing: 1px;
+     
+}
+.rec_back h2 span{
+    font-size: 16px;
+}
+.only{
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+/*Header End*/
+.item_section{
+    margin: 80px 0;
+    color: aliceblue;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left_sec{
+    background-image: url(../images/Burger-House1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 46%;
+    min-height: 420px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 8%;
+}
+.sec_content{
+    padding: 30px 0 0 30px;
+    line-height: 1.0;
+}
+.sec_con_width{
+    width: 30%;
+}
+.left_sec h3{
+    
+}
+.left_sec h1{
+   
+}
+.right_sec{
+    width: 46%;
+    float: left;
+}
+.r_top{
+    background-image: url(../images/Burger-House2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 192px;
+    border-radius: 5px;
+}
+.r_top h3{}
+.r_top h1{}
+.r_buttom{
+    background-image: url(../images/Burger-House3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 35px;
+    border-radius: 5px;
+    min-height: 192px;
+}
+.r_buttom h3{}
+.r_buttom h1{}
+/*Section End*/
+.content_section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.button{
+    background-color: darkgoldenrod;
+    padding: 10px 20px;
+    border: none;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+/*Button End*/
+
+.order_item{
+    overflow: hidden;
+    margin: 50px 0;
+}
+.single_item{
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+    text-align: center;
+}
+.single_item:last-child{
+    margin-right: 0;
+}
+.single_item img{
+    width: 100%;
+}
+.con_item{
+    
+}
+.con_item h2{}
+.con_item p{
+    margin-top: 20px;
+}
+.button2{
+    margin-top: 20px; 
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 10px 20px; 
+}
+/*Item End*/
+.discover{
+    height: 490px;
+}
+.box_shaddow{
+    box-shadow: 10px 10px 20px rgb(216, 215, 215);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content_left{
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.content_left h2{}
+.content_left h1{}
+.content_left p{
+    margin: 30px 0;
+    line-height: 1.5;
+}
+.img_right{
+    width:60%;
+    float: right;
+}
+.img_right img{
+    width: 100%;
+}
+/*Discover End*/
+.form_section{
+    background-image: url(../images/section_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 720px;
+    overflow: hidden;
+}
+.container3{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    
+}
+.container3 h2{
+    text-align: center;
+}
+.container3 h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+.form_area{}
+.form_area input{
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+}
+.form_area a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*Form Section End*/
+.footer_bg{
+   background-image: url(../images/footer_bg.jpg);
+}
+.img_sec{
+    z-index: -0009;
+    position: relative;
+}
+.content{
+    z-index: 9999;
+    position: absolute;
+}
